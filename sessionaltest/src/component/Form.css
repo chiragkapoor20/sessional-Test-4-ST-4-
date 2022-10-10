@@ -1,0 +1,44 @@
+
+.container{
+margin-top: 100px;;
+text-align: center;
+}
+
+
+.for{
+    margin-top: 40px;
+}
+
+.btn{
+    height:30px;
+    width: 170px;
+    border: none;
+    border-radius: 10px;
+    color: purple;
+    font-weight: bold;
+
+}
+
+h1{
+    color: white;
+    font-size: 70px;
+}
+
+.btn:hover{
+    background-color: rgb(207, 179, 18);
+}
+
+
+label{
+    font-size: 20px;
+    font-weight: bold;
+    
+}
+
+input{
+    height:25px;
+    width: 200px;
+    color: red;;
+    background-color:pink;
+   
+}
