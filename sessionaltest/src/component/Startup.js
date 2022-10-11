@@ -1,13 +1,15 @@
 import React from 'react'
 import{Link,useNavigate} from 'react-router-dom'
-import another from './another'
-import './Added.css'
+import Another from './Another'
 
 
 
-export default function Added() {
-        let history=useNavigate();
-        history('/');
+
+export default function Startup() {
+        // let history=useNavigate();
+        // history('/');
+
+        console.log(Another);
       
   return (
     <div className='background'>
@@ -24,7 +26,7 @@ export default function Added() {
     
             <tbody>{
 
-                another.map((item)=>{
+                Another.map((item)=>{
                     return(
                         <tr>
                             <td>{item.a}</td>

@@ -1,12 +1,16 @@
-
 import './App.css';
 import  Form from './component/Form'
+import { BrowserRouter as Router,Routes,Route, BrowserRouter } from 'react-router-dom';
+import Startup from './component/Startup';
 
 function App() {
   return (
-    <div className="App">
-    <Form></Form>
-    </div>
+    <Router>
+      <Routes>
+        <Route path='/' element={<Form/>}></Route>
+        <Route path='/startup' element={<Startup/>}></Route>
+      </Routes>
+    </Router>
   );
 }
 

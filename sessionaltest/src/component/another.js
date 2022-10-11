@@ -1,7 +1,5 @@
-const another=[
-    {
-        
-    }
+const Another=[
+    
 ];
 
-export default another;
+export default Another;
